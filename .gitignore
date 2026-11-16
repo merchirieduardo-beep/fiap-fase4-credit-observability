@@ -1,0 +1,16 @@
+# dados (brutos contêm PII; os demais são regeneráveis com `make all`)
+data/
+models/
+# segredos
+.env
+# tracking local
+mlruns/
+mlflow.db
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
