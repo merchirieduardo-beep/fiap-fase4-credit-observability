@@ -4,8 +4,8 @@ Tech Challenge — Fase 4 (MLET / Pós-Tech). Camada de **sustentação e confia
 modelo de Credit Scoring em produção: contrato de dados, simulação e detecção de drift,
 observabilidade, governança/LGPD e análise causal da degradação.
 
-> **Vídeo STAR (5 min):** _cole o link aqui_
-> **Integrantes:** _nomes / RMs_
+> **Vídeo STAR (5 min):** (https://drive.google.com/file/d/1fjQW2ExuojU7dQJ-Dn5dgCWgoB3PLZ/view?usp=drive_link)
+> **Integrantes:** Eduardo Merchiori
 
 ## Sumário
 
