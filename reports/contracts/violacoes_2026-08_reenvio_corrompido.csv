@@ -1,0 +1,22 @@
+column,check,ocorrencias
+customer_hash,field_uniqueness,200
+monthly_income,not_nullable,153
+age,"in_range(18, 100)",77
+credit_utilization,"in_range(0, 1)",50
+monthly_income,"in_range(1, 200000)",50
+employment_status,"isin(['clt', 'autonomo', 'servidor_publico', 'aposentado', 'desempregado'])",50
+gender,tempo_de_emprego_incompativel_com_idade,39
+num_late_payments_12m,tempo_de_emprego_incompativel_com_idade,39
+loan_term_months,tempo_de_emprego_incompativel_com_idade,39
+loan_amount,tempo_de_emprego_incompativel_com_idade,39
+housing_type,tempo_de_emprego_incompativel_com_idade,39
+employment_status,tempo_de_emprego_incompativel_com_idade,39
+employment_years,tempo_de_emprego_incompativel_com_idade,39
+age,tempo_de_emprego_incompativel_com_idade,39
+debt_to_income,tempo_de_emprego_incompativel_com_idade,39
+customer_id,tempo_de_emprego_incompativel_com_idade,39
+customer_hash,tempo_de_emprego_incompativel_com_idade,39
+credit_utilization,tempo_de_emprego_incompativel_com_idade,39
+num_open_credit_lines,tempo_de_emprego_incompativel_com_idade,39
+monthly_income,tempo_de_emprego_incompativel_com_idade,38
+credit_contract_v1.0.0,column_in_schema,1

@@ -1,0 +1,59 @@
+{
+  "model_name": "credit_scoring_baseline",
+  "algorithm": "XGBoost",
+  "trained_at": "2026-11-16T15:01:51+00:00",
+  "reference_snapshot": "2026-04-30",
+  "data_contract_version": "1.0.0",
+  "reference_sha256": "db085e6c621d61a86607334ce2f8321d29414f6295868f0337b23967bbf00524",
+  "n_train": 16000,
+  "n_holdout": 4000,
+  "features": [
+    "age",
+    "monthly_income",
+    "employment_years",
+    "debt_to_income",
+    "credit_utilization",
+    "num_late_payments_12m",
+    "num_open_credit_lines",
+    "loan_amount",
+    "loan_term_months",
+    "employment_status",
+    "housing_type"
+  ],
+  "excluded_from_model": [
+    "gender (atributo protegido, só auditoria)",
+    "customer_hash"
+  ],
+  "decision_threshold": 0.21505387127399445,
+  "decision_rule": "score >= threshold -> negar / encaminhar para revisão humana",
+  "baseline_metrics": {
+    "auc": 0.7580104389580197,
+    "ks": 0.38797191619772264,
+    "precision": 0.38461538461538464,
+    "recall": 0.6115591397849462,
+    "f1": 0.4722366372599896,
+    "brier": 0.12958366119473252,
+    "default_rate": 0.186,
+    "mean_score": 0.18648962676525116,
+    "approval_rate": 0.70425,
+    "bad_rate_approved": 0.10259140930067448
+  },
+  "baseline_fairness": {
+    "gender": {
+      "approval_rate": {
+        "F": 0.7041,
+        "M": 0.7044
+      },
+      "disparate_impact": 0.9997
+    },
+    "age_band": {
+      "approval_rate": {
+        "18-29": 0.6043,
+        "30-44": 0.6993,
+        "45-59": 0.7522,
+        "60+": 0.789
+      },
+      "disparate_impact": 0.7658
+    }
+  }
+}

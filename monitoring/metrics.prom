@@ -1,0 +1,34 @@
+# HELP credit_feature_psi PSI por feature (último lote)
+# TYPE credit_feature_psi gauge
+credit_feature_psi{feature="credit_utilization"} 0.5555
+credit_feature_psi{feature="age"} 0.3642
+credit_feature_psi{feature="monthly_income"} 0.358
+credit_feature_psi{feature="employment_years"} 0.2678
+credit_feature_psi{feature="loan_amount"} 0.2296
+credit_feature_psi{feature="employment_status"} 0.2053
+credit_feature_psi{feature="num_late_payments_12m"} 0.1634
+credit_feature_psi{feature="debt_to_income"} 0.0032
+credit_feature_psi{feature="num_open_credit_lines"} 0.0029
+credit_feature_psi{feature="loan_term_months"} 0.0021
+credit_feature_psi{feature="housing_type"} 0.0001
+# HELP credit_score_psi PSI do score
+# TYPE credit_score_psi gauge
+credit_score_psi 0.0829
+# HELP credit_drifted_features Features com drift
+# TYPE credit_drifted_features gauge
+credit_drifted_features 6.0
+# HELP credit_rows_ingested Linhas ingeridas
+# TYPE credit_rows_ingested gauge
+credit_rows_ingested 5000.0
+# HELP credit_scoring_latency_ms Latência de scoring (ms)
+# TYPE credit_scoring_latency_ms gauge
+credit_scoring_latency_ms 13.8
+# HELP credit_batches_blocked_total Lotes bloqueados pelo contrato
+# TYPE credit_batches_blocked_total gauge
+credit_batches_blocked_total 1.0
+# HELP credit_alerts_total Alertas emitidos
+# TYPE credit_alerts_total gauge
+credit_alerts_total 16.0
+# HELP credit_model_auc AUC com rótulos maduros
+# TYPE credit_model_auc gauge
+credit_model_auc 0.7026600714105988

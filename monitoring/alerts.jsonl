@@ -1,0 +1,16 @@
+{"ts": "2026-11-16T15:01:56+00:00", "batch": "2026-08", "severity": "critico", "type": "data_drift", "message": "Data drift em 'credit_utilization' (PSI=0.247)", "value": 0.2468, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:56+00:00", "batch": "2026-08", "severity": "critico", "type": "concept_drift", "message": "Modelo subestima o risco: inadimplência real 25.2% vs. 20.9% prevista (gap=4.3%)", "value": 0.0427, "threshold": 0.04}
+{"ts": "2026-11-16T15:01:57+00:00", "batch": "2026-08_reenvio_corrompido", "severity": "critico", "type": "data_contract", "message": "Lote bloqueado: 1126 violações em 21 regras do contrato", "value": 1126, "threshold": 0}
+{"ts": "2026-11-16T15:01:57+00:00", "batch": "2026-09", "severity": "critico", "type": "data_drift", "message": "Data drift em 'credit_utilization' (PSI=0.383)", "value": 0.3831, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:57+00:00", "batch": "2026-09", "severity": "critico", "type": "data_drift", "message": "Data drift em 'monthly_income' (PSI=0.244)", "value": 0.2445, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:57+00:00", "batch": "2026-09", "severity": "critico", "type": "data_drift", "message": "Data drift em 'age' (PSI=0.223)", "value": 0.2227, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:57+00:00", "batch": "2026-09", "severity": "critico", "type": "concept_drift", "message": "Modelo subestima o risco: inadimplência real 27.7% vs. 22.6% prevista (gap=5.2%)", "value": 0.0517, "threshold": 0.04}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'credit_utilization' (PSI=0.555)", "value": 0.5555, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'age' (PSI=0.364)", "value": 0.3642, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'monthly_income' (PSI=0.358)", "value": 0.358, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'employment_years' (PSI=0.268)", "value": 0.2678, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'loan_amount' (PSI=0.230)", "value": 0.2296, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "data_drift", "message": "Data drift em 'employment_status' (PSI=0.205)", "value": 0.2053, "threshold": 0.2}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "retrain_recommended", "message": "6 features com drift (55%) — acionar runbook de retreino", "value": 0.5455, "threshold": 0.3}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "performance_degradation", "message": "AUC caiu 0.055 vs. baseline (0.758 -> 0.703)", "value": 0.7027, "threshold": 0.708}
+{"ts": "2026-11-16T15:01:58+00:00", "batch": "2026-10", "severity": "critico", "type": "concept_drift", "message": "Modelo subestima o risco: inadimplência real 30.1% vs. 23.3% prevista (gap=6.8%)", "value": 0.0679, "threshold": 0.04}

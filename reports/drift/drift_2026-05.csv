@@ -1,0 +1,13 @@
+feature,tipo,psi,teste,estatistica,p_valor,media_ref,media_prod,status,teste_rejeita_h0
+debt_to_income,numerica,0.005885808906094309,Kolmogorov-Smirnov,0.02455,0.13508773422269926,0.34833925,0.3422062,estavel,False
+credit_utilization,numerica,0.00551393915365819,Kolmogorov-Smirnov,0.0144,0.7405589057549667,0.32769325000000005,0.33205239999999997,estavel,False
+age,numerica,0.004858609009095233,Kolmogorov-Smirnov,0.01115,0.9423003767087693,40.80475,40.7108,estavel,False
+monthly_income,numerica,0.0037723399026878364,Kolmogorov-Smirnov,0.01675,0.555527915319558,4716.544089999999,4723.080034,estavel,False
+employment_years,numerica,0.002878001067963348,Kolmogorov-Smirnov,0.01285,0.8519135367674737,5.013025,4.9848,estavel,False
+loan_amount,numerica,0.0021014459877871264,Kolmogorov-Smirnov,0.0155,0.653973625946033,21117.078555,21378.473318,estavel,False
+num_late_payments_12m,numerica,0.0015753683896585604,Kolmogorov-Smirnov,0.0123,0.8856659173779996,0.589,0.6078,estavel,False
+score,numerica,0.0015743125276496362,Kolmogorov-Smirnov,0.01125,0.9381997337808453,0.186489626563375,0.18596181273460388,estavel,False
+num_open_credit_lines,numerica,0.0014427692248013848,Kolmogorov-Smirnov,0.01225,0.8885383360694191,4.52625,4.487,estavel,False
+loan_term_months,numerica,0.0006891008294753016,Kolmogorov-Smirnov,0.00725,0.999768991590914,33.084,32.9568,estavel,False
+housing_type,categorica,0.00042620087282090047,Qui-quadrado,0.9466054246699326,0.6229414705661299,,,estavel,False
+employment_status,categorica,0.00041188786259444286,Qui-quadrado,0.9175202584189612,0.9220339067772627,,,estavel,False

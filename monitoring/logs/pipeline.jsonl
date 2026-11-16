@@ -1,0 +1,70 @@
+{"ts": "2026-11-16T15:01:49+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 20000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:50+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "reference", "linhas": 20000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:51+00:00", "level": "INFO", "component": "train", "event": "modelo_treinado", "algoritmo": "XGBoost", "auc": 0.758, "ks": 0.388, "threshold": 0.2151, "n_train": 16000}
+{"ts": "2026-11-16T15:01:51+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "demo_lote_limpo", "linhas": 2000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:51+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "demo_lote_com_erros", "falhas": 478, "regras_violadas": 19, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:51+00:00", "level": "WARNING", "component": "contracts", "event": "lote_em_quarentena", "lote": "demo_lote_com_erros", "relatorio": "contrato_demo_lote_com_erros.html"}
+{"ts": "2026-11-16T15:01:51+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-05", "intensidade_drift": 0.0, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-06", "intensidade_drift": 0.2, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-07", "intensidade_drift": 0.4, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-08", "intensidade_drift": 0.6, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "WARNING", "component": "simulate_drift", "event": "lote_corrompido_simulado", "lote": "batch_2026-08_reenvio_corrompido", "linhas": 5100}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-09", "intensidade_drift": 0.8, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 5000, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "simulate_drift", "event": "lote_simulado", "lote": "2026-10", "intensidade_drift": 1.0, "linhas": 5000}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-05", "arquivo": "batch_2026-05.csv"}
+{"ts": "2026-11-16T15:01:52+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-05", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:53+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-05", "linhas": 5000, "features_com_drift": 0, "alertas": 0, "latencia_ms": 295.1}
+{"ts": "2026-11-16T15:01:54+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-06", "arquivo": "batch_2026-06.csv"}
+{"ts": "2026-11-16T15:01:54+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-06", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:55+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-06", "linhas": 5000, "features_com_drift": 0, "alertas": 0, "latencia_ms": 335.7}
+{"ts": "2026-11-16T15:01:55+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-07", "arquivo": "batch_2026-07.csv"}
+{"ts": "2026-11-16T15:01:55+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-07", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:55+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-07", "linhas": 5000, "features_com_drift": 0, "alertas": 0, "latencia_ms": 419.0}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-08", "arquivo": "batch_2026-08.csv"}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-08", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-08", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'credit_utilization' (PSI=0.247)"}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-08", "tipo": "concept_drift", "severidade": "critico", "mensagem": "Modelo subestima o risco: inadimplência real 25.2% vs. 20.9% prevista (gap=4.3%)"}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-08", "linhas": 5000, "features_com_drift": 1, "alertas": 2, "latencia_ms": 445.2}
+{"ts": "2026-11-16T15:01:56+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-08_reenvio_corrompido", "arquivo": "batch_2026-08_reenvio_corrompido.csv"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "2026-08_reenvio_corrompido", "falhas": 1126, "regras_violadas": 21, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "WARNING", "component": "contracts", "event": "lote_em_quarentena", "lote": "2026-08_reenvio_corrompido", "relatorio": "contrato_2026-08_reenvio_corrompido.html"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-08_reenvio_corrompido", "tipo": "data_contract", "severidade": "critico", "mensagem": "Lote bloqueado: 1126 violações em 21 regras do contrato"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-09", "arquivo": "batch_2026-09.csv"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-09", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-09", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'credit_utilization' (PSI=0.383)"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-09", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'monthly_income' (PSI=0.244)"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-09", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'age' (PSI=0.223)"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-09", "tipo": "concept_drift", "severidade": "critico", "mensagem": "Modelo subestima o risco: inadimplência real 27.7% vs. 22.6% prevista (gap=5.2%)"}
+{"ts": "2026-11-16T15:01:57+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-09", "linhas": 5000, "features_com_drift": 3, "alertas": 4, "latencia_ms": 583.2}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "INFO", "component": "monitor", "event": "ingestao_iniciada", "lote": "2026-10", "arquivo": "batch_2026-10.csv"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "2026-10", "linhas": 5000, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'credit_utilization' (PSI=0.555)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'age' (PSI=0.364)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'monthly_income' (PSI=0.358)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'employment_years' (PSI=0.268)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'loan_amount' (PSI=0.230)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "data_drift", "severidade": "critico", "mensagem": "Data drift em 'employment_status' (PSI=0.205)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "retrain_recommended", "severidade": "critico", "mensagem": "6 features com drift (55%) — acionar runbook de retreino"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "performance_degradation", "severidade": "critico", "mensagem": "AUC caiu 0.055 vs. baseline (0.758 -> 0.703)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "ERROR", "component": "observability", "event": "alerta", "lote": "2026-10", "tipo": "concept_drift", "severidade": "critico", "mensagem": "Modelo subestima o risco: inadimplência real 30.1% vs. 23.3% prevista (gap=6.8%)"}
+{"ts": "2026-11-16T15:01:58+00:00", "level": "INFO", "component": "monitor", "event": "lote_processado", "lote": "2026-10", "linhas": 5000, "features_com_drift": 6, "alertas": 9, "latencia_ms": 620.2}
+{"ts": "2026-11-16T15:02:10+00:00", "level": "INFO", "component": "drift", "event": "evidently_relatorios_gerados", "lote": "2026-10", "arquivos": ["evidently_data_drift_psi_2026-10.html", "evidently_data_drift_ks_2026-10.html", "evidently_model_performance_2026-10.html"]}
+{"ts": "2026-11-16T15:02:10+00:00", "level": "INFO", "component": "monitor", "event": "monitoramento_concluido", "lotes": 7, "bloqueados": 1, "alertas": 16}
+{"ts": "2026-11-16T15:02:12+00:00", "level": "INFO", "component": "causal", "event": "analise_causal_concluida", "auc_baseline": 0.737, "auc_so_data_drift": 0.769, "auc_so_concept_drift": 0.689}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 500, "colunas_removidas": ["customer_id", "birth_date"]}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "INFO", "component": "contracts", "event": "contrato_aprovado", "lote": "teste_limpo", "linhas": 500, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_corrompido", "falhas": 122, "regras_violadas": 19, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_age", "falhas": 14, "regras_violadas": 14, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_monthly_income", "falhas": 1, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_monthly_income", "falhas": 1, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_credit_utilization", "falhas": 1, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_employment_status", "falhas": 1, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:17+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_duplicatas", "falhas": 6, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:18+00:00", "level": "ERROR", "component": "contracts", "event": "contrato_reprovado", "lote": "teste_pii", "falhas": 1, "regras_violadas": 1, "contrato": "1.0.0"}
+{"ts": "2026-11-16T15:02:18+00:00", "level": "INFO", "component": "privacy", "event": "pseudonimizacao_aplicada", "linhas": 100, "colunas_removidas": ["customer_id", "birth_date"]}
