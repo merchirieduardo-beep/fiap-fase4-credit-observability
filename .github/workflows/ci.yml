@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Testes (contrato, drift, privacidade)
+        run: pytest -q
+      - name: Pipeline ponta a ponta
+        run: python -m src.run_all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: relatorios
+          path: |
+            reports/
+            monitoring/
